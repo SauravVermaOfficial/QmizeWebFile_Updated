@@ -63,6 +63,7 @@ import TwentiethBlog from "./Components/Blogs/TwentiethBlog";
 import TwentyOneBlog from "./Components/Blogs/TwentyOneBlog";
 import TwentyTwoBlog from "./Components/Blogs/TwentyTwoBlog";
 import TwentyThreeBlog from "./Components/Blogs/TwentyThreeBlog";
+import TwentyFourBlog from "./Components/Blogs/TwentyFourBlog";
 
 
 
@@ -172,6 +173,7 @@ const AppRoute = () => {
         <Route path="/blog/whatsApp-introduction-message" element={<TwentyOneBlog/>}/>
         <Route path="/blog/whatsapp-marketing" element={<TwentyTwoBlog/>}/>
         <Route path="/blog/top-10-bulk-sms-sevice-providers-in-india" element={<TwentyThreeBlog/>}/>
+        <Route path="/blog/how-to-convert-whatsapp-to-business-account" element={<TwentyFourBlog/>}/>
 
 
 

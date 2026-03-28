@@ -25,13 +25,21 @@ import ontop2 from "../../assets/Images/whatsappverification.jpeg";
 import ontop3 from "../../assets/Images/WhatsApp_Introduction_Message.jpeg";
 import ontop4 from "../../assets/Images/WhatsApp Marketing.jpeg";
 import ontop5 from "../../assets/Images/bulksmsprovider.jpeg";
+import ontop6 from "../../assets/Images/convert_whatsapp_into_business_account.jpg";
 const BlogDetails = () => {
  
 
   const blogs = [
     
      {
-id: 22,
+id: 24,
+title: "How to Convert WhatsApp to Business Account (Step-by-Step Guide 2026)",
+date: "Mar 28, 2026",
+image: ontop6,
+link: "/blog/how-to-convert-whatsapp-to-business-account"
+},
+     {
+id: 23,
 title: " Top 10 Bulk SMS Service Providers in India ",
 date: "Mar 14, 2026",
 image: ontop5,

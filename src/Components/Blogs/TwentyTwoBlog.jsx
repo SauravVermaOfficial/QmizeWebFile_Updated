@@ -136,7 +136,7 @@ const toc = [
               name="description"
               content="Learn how WhatsApp marketing helps businesses connect with customers through direct messaging. Explore strategies, examples, best practices, and common mistakes to avoid."
             />
-            <link rel="canonical" href="https://qmize.com/blog/whatsApp-marketing" />
+            <link rel="canonical" href="https://qmize.com/blog/whatsapp-marketing" />
     
           </Helmet>
     
