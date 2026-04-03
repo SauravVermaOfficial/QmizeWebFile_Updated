@@ -360,3 +360,16 @@ body{
   padding: 4px 8px;
   border: none;
 }
+
+/* Ensure Lenis can calculate height */
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}

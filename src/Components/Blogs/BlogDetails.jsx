@@ -26,10 +26,28 @@ import ontop3 from "../../assets/Images/WhatsApp_Introduction_Message.jpeg";
 import ontop4 from "../../assets/Images/WhatsApp Marketing.jpeg";
 import ontop5 from "../../assets/Images/bulksmsprovider.jpeg";
 import ontop6 from "../../assets/Images/convert_whatsapp_into_business_account.jpg";
+import ontop7 from "../../assets/Images/what_is_whatsapp_cloud_api.jpg";
+import ontop8 from "../../assets/Images/what_is_whatsapp_business.jpg";
+
 const BlogDetails = () => {
  
 
   const blogs = [
+
+     {
+id: 26,
+title: "WhatsApp Business: Complete Guide for Businesses in 2026",
+date: "Mar 28, 2026",
+image: ontop8,
+link: "/blog/whatsapp-business"
+},
+     {
+id: 25,
+title: "WhatsApp Cloud API: Complete Guide for Businesses in 2026",
+date: "Mar 28, 2026",
+image: ontop7,
+link: "/blog/whatsapp-cloud-api"
+},
     
      {
 id: 24,

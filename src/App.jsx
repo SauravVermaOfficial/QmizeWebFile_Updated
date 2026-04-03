@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Lenis from "lenis";
+import { useLocation } from "react-router-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Loader from "./Components/Common/Loader";
 import ScrollToTop from "./Components/ScrolltoTop";
@@ -65,23 +66,14 @@ import TwentyTwoBlog from "./Components/Blogs/TwentyTwoBlog";
 import TwentyThreeBlog from "./Components/Blogs/TwentyThreeBlog";
 import TwentyFourBlog from "./Components/Blogs/TwentyFourBlog";
 
+import TwentyFiveBlog from "./Components/Blogs/TwentyFiveBlog";
+import TwentySixBlog from "./Components/Blogs/TwentySixBlog";
 
 
+const LenisProvider = ({ children }) => {
+  const location = useLocation();
 
-const AppRoute = () => {
-
-  const [loading, setLoading] = useState(true);
-
-  // ✅ Loader timer
   useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 1000);
-  }, []);
-
-  // ✅ Lenis scroll (MOVED ABOVE return)
-  useEffect(() => { 
-
     const lenis = new Lenis({
       duration: 1.2,
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
@@ -90,7 +82,6 @@ const AppRoute = () => {
       gestureDirection: "vertical",
       smoothTouch: false,
       touchMultiplier: 1.2,
-      infinite: false,
     });
 
     function raf(time) {
@@ -100,19 +91,77 @@ const AppRoute = () => {
 
     requestAnimationFrame(raf);
 
+    // ✅ FIX: resize observer
+    const resizeObserver = new ResizeObserver(() => {
+      lenis.resize();
+    });
+
+    resizeObserver.observe(document.body);
+
     window.lenis = lenis;
 
     return () => {
+      resizeObserver.disconnect();
       lenis.destroy();
     };
-
   }, []);
 
+  // ✅ FIX: update on route change
+  useEffect(() => {
+    window.lenis?.resize();
+    window.lenis?.scrollTo(0);
+  }, [location]);
+
+  return children;
+};
+const AppRoute = () => {
+
+  const [loading, setLoading] = useState(true);
+
+
+  // ✅ Loader timer
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+  }, []);
+
+  // ✅ Lenis scroll (MOVED ABOVE return)
+  // useEffect(() => { 
+
+  //   const lenis = new Lenis({
+  //     duration: 1.2,
+  //     easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+  //     smooth: true,
+  //     direction: "vertical",
+  //     gestureDirection: "vertical",
+  //     smoothTouch: false,
+  //     touchMultiplier: 1.2,
+  //     infinite: false,
+  //   });
+
+  //   function raf(time) {
+  //     lenis.raf(time);
+  //     requestAnimationFrame(raf);
+  //   }
+
+  //   requestAnimationFrame(raf);
+
+  //   window.lenis = lenis;
+
+  //   return () => {
+  //     lenis.destroy();
+  //   };
+
+  // }, []);
+
+ 
   // ✅ RETURN AFTER ALL HOOKS
   if (loading) return <Loader />;
 
   return (
     <BrowserRouter>
+    <LenisProvider> 
    
      <ScrollToTop />
       <Routes>
@@ -175,11 +224,15 @@ const AppRoute = () => {
         <Route path="/blog/top-10-bulk-sms-sevice-providers-in-india" element={<TwentyThreeBlog/>}/>
         <Route path="/blog/how-to-convert-whatsapp-to-business-account" element={<TwentyFourBlog/>}/>
 
+        <Route path="/blog/whatsapp-cloud-api" element={<TwentyFiveBlog/>}/>
+         <Route path="/blog/whatsapp-business" element={<TwentySixBlog/>}/>
+
 
 
         <Route path="*" element={<NotFound />} />
 
       </Routes>
+      </LenisProvider>
     </BrowserRouter>  
   );
 };
