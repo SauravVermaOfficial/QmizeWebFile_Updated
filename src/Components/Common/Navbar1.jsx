@@ -26,9 +26,9 @@ export default function TopBanner() {
   items-center
   justify-start
   px-6 lg:px-10
-  pb-5
   
-  h-18
+  
+  h-10
   text-white
 
   bg-linear-to-r from-emerald-950 via-emerald-900 to-emerald-950

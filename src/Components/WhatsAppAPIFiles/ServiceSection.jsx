@@ -216,7 +216,7 @@ const SvgShield = () => (
 
 
   const [pricingType, setPricingType] = useState("india"); 
-  const [billing, setBilling] = useState("monthly");
+  const [billing, setBilling] = useState("annually");
     const navigate = useNavigate();
   const industries = [
     "E-commerce",
