@@ -65,9 +65,9 @@ import TwentyOneBlog from "./Components/Blogs/TwentyOneBlog";
 import TwentyTwoBlog from "./Components/Blogs/TwentyTwoBlog";
 import TwentyThreeBlog from "./Components/Blogs/TwentyThreeBlog";
 import TwentyFourBlog from "./Components/Blogs/TwentyFourBlog";
-
 import TwentyFiveBlog from "./Components/Blogs/TwentyFiveBlog";
 import TwentySixBlog from "./Components/Blogs/TwentySixBlog";
+import TwentysevenBlog from "./Components/Blogs/TwentysevenBlog";
 
 
 const LenisProvider = ({ children }) => {
@@ -223,9 +223,9 @@ const AppRoute = () => {
         <Route path="/blog/whatsapp-marketing" element={<TwentyTwoBlog/>}/>
         <Route path="/blog/top-10-bulk-sms-sevice-providers-in-india" element={<TwentyThreeBlog/>}/>
         <Route path="/blog/how-to-convert-whatsapp-to-business-account" element={<TwentyFourBlog/>}/>
-
         <Route path="/blog/whatsapp-cloud-api" element={<TwentyFiveBlog/>}/>
-         <Route path="/blog/whatsapp-business" element={<TwentySixBlog/>}/>
+        <Route path="/blog/whatsapp-business" element={<TwentySixBlog/>}/>
+        <Route path="/blog/whatsapp-business-web" element={<TwentysevenBlog/>}/>
 
 
 

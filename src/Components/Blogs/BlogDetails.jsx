@@ -28,12 +28,20 @@ import ontop5 from "../../assets/Images/bulksmsprovider.jpeg";
 import ontop6 from "../../assets/Images/convert_whatsapp_into_business_account.jpg";
 import ontop7 from "../../assets/Images/what_is_whatsapp_cloud_api.jpg";
 import ontop8 from "../../assets/Images/what_is_whatsapp_business.jpg";
+import whatsappweb from "../../assets/Images/whatsappweb.png";
 
 const BlogDetails = () => {
  
 
   const blogs = [
 
+     {
+id: 26,
+title: "WhatsApp Business Web: Complete Guide for Businesses (2026)",
+date: "Apr 11, 2026",
+image: whatsappweb,
+link: "/blog/whatsapp-business-web"
+},
      {
 id: 26,
 title: "WhatsApp Business: Complete Guide for Businesses in 2026",
@@ -306,12 +314,12 @@ link: "/blog/whatsapp-marketing"
                   />
 
                   {/* Image */}
-                  <div className="h-48 overflow-hidden relative z-10">
+                  <div className="h-48  overflow-hidden relative z-10">
                     <img
                       src={blog.image}
                       alt={blog.title}
                       className="w-full h-full object-cover 
-                    group-hover:scale-125 transition-transform duration-700"
+                    group-hover:scale-110 transition-transform duration-700"
                     />
                   </div>
 
