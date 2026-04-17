@@ -68,6 +68,9 @@ import TwentyFourBlog from "./Components/Blogs/TwentyFourBlog";
 import TwentyFiveBlog from "./Components/Blogs/TwentyFiveBlog";
 import TwentySixBlog from "./Components/Blogs/TwentySixBlog";
 import TwentysevenBlog from "./Components/Blogs/TwentysevenBlog";
+import TwentyeightBlog from "./Components/Blogs/TwentyEightBlog";
+import TwentynineBlog from "./Components/Blogs/TwentyNineBlog";
+import ThirtyBlog from "./Components/Blogs/ThirtyBlog";
 
 
 const LenisProvider = ({ children }) => {
@@ -226,6 +229,10 @@ const AppRoute = () => {
         <Route path="/blog/whatsapp-cloud-api" element={<TwentyFiveBlog/>}/>
         <Route path="/blog/whatsapp-business" element={<TwentySixBlog/>}/>
         <Route path="/blog/whatsapp-business-web" element={<TwentysevenBlog/>}/>
+        <Route path="/blog/whatsapp-api-integration" element={<TwentyeightBlog/>}/>
+        <Route path="/blog/whatsapp-business-description" element={<TwentynineBlog/>}/>
+        <Route path="/blog/whatsapp-broadcast" element={<ThirtyBlog/>}/>
+
 
 
 

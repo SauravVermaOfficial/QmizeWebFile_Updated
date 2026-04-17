@@ -29,58 +29,80 @@ import ontop6 from "../../assets/Images/convert_whatsapp_into_business_account.j
 import ontop7 from "../../assets/Images/what_is_whatsapp_cloud_api.jpg";
 import ontop8 from "../../assets/Images/what_is_whatsapp_business.jpg";
 import whatsappweb from "../../assets/Images/whatsappweb.png";
+import whatsapp28 from "../../assets/Images/whatsapp_api_28.jpg";
+import whatsapp29 from "../../assets/Images/whatsapp_description_29.jpg";
+import whatsapp30 from "../../assets/Images/whatsapp-description-30.jpg";
 
 const BlogDetails = () => {
- 
-
   const blogs = [
-
-     {
-id: 26,
-title: "WhatsApp Business Web: Complete Guide for Businesses (2026)",
-date: "Apr 11, 2026",
-image: whatsappweb,
-link: "/blog/whatsapp-business-web"
-},
-     {
-id: 26,
-title: "WhatsApp Business: Complete Guide for Businesses in 2026",
-date: "Mar 28, 2026",
-image: ontop8,
-link: "/blog/whatsapp-business"
-},
-     {
-id: 25,
-title: "WhatsApp Cloud API: Complete Guide for Businesses in 2026",
-date: "Mar 28, 2026",
-image: ontop7,
-link: "/blog/whatsapp-cloud-api"
-},
-    
-     {
-id: 24,
-title: "How to Convert WhatsApp to Business Account (Step-by-Step Guide 2026)",
-date: "Mar 28, 2026",
-image: ontop6,
-link: "/blog/how-to-convert-whatsapp-to-business-account"
-},
-     {
-id: 23,
-title: " Top 10 Bulk SMS Service Providers in India ",
-date: "Mar 14, 2026",
-image: ontop5,
-link: "/blog/top-10-bulk-sms-sevice-providers-in-india"
-},
-    
-    
     {
-id: 22,
-title: " WhatsApp Marketing: The Complete Guide to Growing Your Business with Direct Conversations",
-date: "Mar 09, 2026",
-image: ontop4,
-link: "/blog/whatsapp-marketing"
-},
- {
+      id: 30,
+      title: "WhatsApp Broadcast: What It Is, How It Works & Business Guide (2026)",
+      date: "Apr 17, 2026",
+      image: whatsapp30,
+      link: "/blog/whatsapp-broadcast",
+    },
+     {
+      id: 29,
+      title: "100 WhatsApp Business Description Examples (2026) | Best Bio Ideas",
+      date: "Apr 16, 2026",
+      image: whatsapp29,
+      link: "/blog/whatsapp-business-description",
+    },
+    {
+      id: 28,
+      title: "WhatsApp API Integration: Complete Guide for Businesses in 2026",
+      date: "Apr 16, 2026",
+      image: whatsapp28,
+      link: "/blog/whatsapp-api-integration",
+    },
+    {
+      id: 27,
+      title: "WhatsApp Business Web: Complete Guide for Businesses (2026)",
+      date: "Apr 11, 2026",
+      image: whatsappweb,
+      link: "/blog/whatsapp-business-web",
+    },
+    {
+      id: 26,
+      title: "WhatsApp Business: Complete Guide for Businesses in 2026",
+      date: "Mar 28, 2026",
+      image: ontop8,
+      link: "/blog/whatsapp-business",
+    },
+    {
+      id: 25,
+      title: "WhatsApp Cloud API: Complete Guide for Businesses in 2026",
+      date: "Mar 28, 2026",
+      image: ontop7,
+      link: "/blog/whatsapp-cloud-api",
+    },
+
+    {
+      id: 24,
+      title:
+        "How to Convert WhatsApp to Business Account (Step-by-Step Guide 2026)",
+      date: "Mar 28, 2026",
+      image: ontop6,
+      link: "/blog/how-to-convert-whatsapp-to-business-account",
+    },
+    {
+      id: 23,
+      title: " Top 10 Bulk SMS Service Providers in India ",
+      date: "Mar 14, 2026",
+      image: ontop5,
+      link: "/blog/top-10-bulk-sms-sevice-providers-in-india",
+    },
+
+    {
+      id: 22,
+      title:
+        " WhatsApp Marketing: The Complete Guide to Growing Your Business with Direct Conversations",
+      date: "Mar 09, 2026",
+      image: ontop4,
+      link: "/blog/whatsapp-marketing",
+    },
+    {
       id: 21,
       title:
         " WhatsApp Introduction Message: Best Samples, Greeting Messages & How to Send Them at Scale",
@@ -275,70 +297,70 @@ link: "/blog/whatsapp-marketing"
 
           {/* Blog Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
-           {/* {blogs.map((blog, i) => ( */}
-          {[...blogs]
-            .sort((a, b) => b.id - a.id)
-            .map((blog, i) => (
-              <Link to={blog.link} key={blog.id}>
-                <motion.div
-                  initial={{ opacity: 0, y: 60 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ delay: i * 0.01 }}
-                  whileHover={{ rotateX: 6, rotateY: -6, scale: 1.05 }}
-                  onMouseMove={(e) =>
-                    setPos({
-                      x: e.nativeEvent.offsetX,
-                      y: e.nativeEvent.offsetY,
-                    })
-                  }
-                  className="relative group rounded-3xl 
+            {/* {blogs.map((blog, i) => ( */}
+            {[...blogs]
+              .sort((a, b) => b.id - a.id)
+              .map((blog, i) => (
+                <Link to={blog.link} key={blog.id}>
+                  <motion.div
+                    initial={{ opacity: 0, y: 60 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ delay: i * 0.01 }}
+                    whileHover={{ rotateX: 6, rotateY: -6, scale: 1.05 }}
+                    onMouseMove={(e) =>
+                      setPos({
+                        x: e.nativeEvent.offsetX,
+                        y: e.nativeEvent.offsetY,
+                      })
+                    }
+                    className="relative group rounded-3xl 
                 bg-white/5 backdrop-blur-xl border border-white/10 
                 shadow-[0_0_30px_rgba(16,185,129,0.15)]
                 hover:shadow-[0_0_60px_rgba(16,185,129,0.35)]
                 transition-all duration-500 overflow-hidden"
-                >
-                  {/* Cursor Glow */}
-                  <div
-                    style={{
-                      background: `radial-gradient(circle at ${pos.x}px ${pos.y}px, 
+                  >
+                    {/* Cursor Glow */}
+                    <div
+                      style={{
+                        background: `radial-gradient(circle at ${pos.x}px ${pos.y}px, 
                     rgba(16,185,129,0.25), transparent 60%)`,
-                    }}
-                    className="absolute inset-0 opacity-0 group-hover:opacity-100 transition"
-                  />
+                      }}
+                      className="absolute inset-0 opacity-0 group-hover:opacity-100 transition"
+                    />
 
-                  {/* Animated Border */}
-                  <div
-                    className="absolute inset-0 rounded-3xl 
+                    {/* Animated Border */}
+                    <div
+                      className="absolute inset-0 rounded-3xl 
                 bg-gradient-to-r from-emerald-400 via-cyan-400 to-emerald-400 
                 opacity-0 group-hover:opacity-20 blur-xl animate-spin-slow"
-                  />
-
-                  {/* Image */}
-                  <div className="h-48  overflow-hidden relative z-10">
-                    <img
-                      src={blog.image}
-                      alt={blog.title}
-                      className="w-full h-full object-cover 
-                    group-hover:scale-110 transition-transform duration-700"
                     />
-                  </div>
 
-                  {/* Content */}
-                  <div className="relative z-10 p-6">
-                    <p className="text-xs uppercase tracking-widest text-emerald-400 mb-2">
-                      {blog.date}
-                    </p>
+                    {/* Image */}
+                    <div className="h-48  overflow-hidden relative z-10">
+                      <img
+                        src={blog.image}
+                        alt={blog.title}
+                        className="w-full h-full object-cover 
+                    group-hover:scale-110 transition-transform duration-700"
+                      />
+                    </div>
 
-                    <h3
-                      className="text-white font-semibold text-lg leading-snug 
+                    {/* Content */}
+                    <div className="relative z-10 p-6">
+                      <p className="text-xs uppercase tracking-widest text-emerald-400 mb-2">
+                        {blog.date}
+                      </p>
+
+                      <h3
+                        className="text-white font-semibold text-lg leading-snug 
                   group-hover:text-emerald-300 transition"
-                    >
-                      {blog.title}
-                    </h3>
-                  </div>
-                </motion.div>
-              </Link>
-            ))}
+                      >
+                        {blog.title}
+                      </h3>
+                    </div>
+                  </motion.div>
+                </Link>
+              ))}
           </div>
         </div>
       </section>
