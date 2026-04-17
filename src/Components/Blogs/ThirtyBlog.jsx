@@ -11,9 +11,6 @@ import { Link } from "react-router-dom";
 import christmasImage from "../../assets/Images/christmas_offer_blog.webp";
 import bannerImage30 from "../../assets/Images/whatsapp-description-30.jpg";
 
-
-
-
 const WhatsAppAPI = () => {
   const scrollToSection = (id) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
@@ -86,80 +83,81 @@ const WhatsAppAPI = () => {
   }, []);
 
   const toc = [
-  {
-    id: "first",
-    label: "1. WhatsApp Broadcast: The Complete Guide to Sending Messages at Scale",
-  },
+    {
+      id: "first",
+      label:
+        "1. WhatsApp Broadcast: The Complete Guide to Sending Messages at Scale",
+    },
 
-  {
-    id: "second",
-    label: "2. What is WhatsApp Broadcast?",
-  },
+    {
+      id: "second",
+      label: "2. What is WhatsApp Broadcast?",
+    },
 
-  {
-    id: "third",
-    label: "3. WhatsApp Broadcast vs WhatsApp Group",
-  },
+    {
+      id: "third",
+      label: "3. WhatsApp Broadcast vs WhatsApp Group",
+    },
 
-  {
-    id: "fourth",
-    label: "4. Requirements to Send WhatsApp Broadcast Messages",
-  },
+    {
+      id: "fourth",
+      label: "4. Requirements to Send WhatsApp Broadcast Messages",
+    },
 
-  {
-    id: "fifth",
-    label: "5. How to Create a WhatsApp Broadcast List",
-  },
+    {
+      id: "fifth",
+      label: "5. How to Create a WhatsApp Broadcast List",
+    },
 
-  {
-    id: "sixth",
-    label: "6. WhatsApp Broadcast Limit",
-  },
+    {
+      id: "sixth",
+      label: "6. WhatsApp Broadcast Limit",
+    },
 
-  {
-    id: "seventh",
-    label: "7. Benefits of WhatsApp Broadcast for Businesses",
-  },
+    {
+      id: "seventh",
+      label: "7. Benefits of WhatsApp Broadcast for Businesses",
+    },
 
-  {
-    id: "eighth",
-    label: "8. Best Practices for WhatsApp Broadcast Marketing",
-  },
+    {
+      id: "eighth",
+      label: "8. Best Practices for WhatsApp Broadcast Marketing",
+    },
 
-  {
-    id: "ninth",
-    label: "9. WhatsApp Broadcast Message Examples",
-  },
+    {
+      id: "ninth",
+      label: "9. WhatsApp Broadcast Message Examples",
+    },
 
-  {
-    id: "tenth",
-    label: "10. WhatsApp Broadcast for Marketing Automation",
-  },
+    {
+      id: "tenth",
+      label: "10. WhatsApp Broadcast for Marketing Automation",
+    },
 
-  {
-    id: "eleventh",
-    label: "11. Conclusion",
-  },
+    {
+      id: "eleventh",
+      label: "11. Conclusion",
+    },
 
-  {
-    id: "twelfth",
-    label: "12. FAQs About WhatsApp Broadcast",
-  },
-];
+    {
+      id: "twelfth",
+      label: "12. FAQs About WhatsApp Broadcast",
+    },
+  ];
   return (
     <>
       <Helmet>
         <meta charSet="utf-8" />
         <title>
-          100 WhatsApp Business Description Examples (2026) | Best Bio Ideas
+            WhatsApp Broadcast: What It Is, How It Works & Business Guide (2026)
         </title>
         <meta
           name="description"
-          content="Discover 100 WhatsApp Business description examples for different industries. Learn how to write a perfect WhatsApp business bio with tips, character limits, and ready-to-use ideas to attract more customers."
+          content="Learn what WhatsApp Broadcast is, how to create broadcast lists, limits, and how businesses can use WhatsApp broadcast messages for marketing and customer communication."
         />
         <link
           rel="canonical"
-          href="https://qmize.com/blog/whatsapp-business-description"
+          href="https://qmize.com/blog/whatsapp-broadcast"
         />
       </Helmet>
 
@@ -296,30 +294,46 @@ const WhatsAppAPI = () => {
 
               <section className="w-full py-5 ">
                 <div className="max-w-4xl mx-auto ">
-                 {/* WhatsApp Broadcast: The Complete Guide to Sending Messages at Scale */}
-<section id="first">
-  <div className="max-w-4xl mx-auto mb-5">
+                  {/* WhatsApp Broadcast: The Complete Guide to Sending Messages at Scale */}
+                  <section id="first">
+                    <div className="max-w-4xl mx-auto mb-5">
+                      <h2 className="text-3xl md:text-3xl font-bold text-emerald-700 mb-6">
+                        WhatsApp Broadcast: The Complete Guide to Sending
+                        Messages at Scale
+                      </h2>
 
-    <h2 className="text-3xl md:text-3xl font-bold text-emerald-700 mb-6">
-      WhatsApp Broadcast: The Complete Guide to Sending Messages at Scale
-    </h2>
+                      <div className="space-y-6 text-md leading-relaxed text-gray-800">
+                        <p>
+                          Businesses today need fast and direct communication
+                          with customers. One of the most effective tools for
+                          this is{" "}
+                          <span className="font-bold">WhatsApp Broadcast</span>,
+                          which allows companies to send a single message to
+                          multiple contacts at once without creating a group.
+                        </p>
 
-    <div className="space-y-6 text-md leading-relaxed text-gray-800">
+                        <p>
+                          With over{" "}
+                          <span className="font-bold">
+                            2 billion users worldwide,
+                          </span>{" "}
+                          WhatsApp has become a powerful platform for marketing,
+                          customer engagement, and updates. Using the broadcast
+                          feature correctly can help businesses send promotions,
+                          announcements, reminders, and updates instantly at
+                          once to multiple customers.
+                        </p>
 
-      <p>
-        Businesses today need fast and direct communication with customers. One of the most effective tools for this is <span className="font-bold">WhatsApp Broadcast</span>, which allows companies to send a single message to multiple contacts at once without creating a group.
-      </p>
-
-      <p>
-        With over <span className="font-bold">2 billion users worldwide,</span>  WhatsApp has become a powerful platform for marketing, customer engagement, and updates. Using the broadcast feature correctly can help businesses send promotions, announcements, reminders, and updates instantly at once to multiple customers.
-      </p>
-
-      <p>
-        In this guide, we will explain  <span className="font-bold">what WhatsApp Broadcast is, how it works, how to create a broadcast list, limits, and best practices for businesses.</span> 
-      </p>
-
-    </div>
-    {/* Image after intro */}
+                        <p>
+                          In this guide, we will explain{" "}
+                          <span className="font-bold">
+                            what WhatsApp Broadcast is, how it works, how to
+                            create a broadcast list, limits, and best practices
+                            for businesses.
+                          </span>
+                        </p>
+                      </div>
+                      {/* Image after intro */}
                       <div className="mb-8">
                         <img
                           src={bannerImage30}
@@ -327,610 +341,757 @@ const WhatsAppAPI = () => {
                           className="rounded-xl shadow-md w-full"
                         />
                       </div>
+                    </div>
+                  </section>
 
-  </div>
-</section>
+                  {/* What is WhatsApp Broadcast? */}
+                  <section id="second">
+                    <div className="max-w-4xl mx-auto mb-5">
+                      <h2 className="text-3xl md:text-3xl font-bold text-emerald-700 mb-6">
+                        What is WhatsApp Broadcast?
+                      </h2>
 
-                 {/* What is WhatsApp Broadcast? */}
-<section id="second">
-  <div className="max-w-4xl mx-auto mb-5">
+                      <div className="space-y-4 text-md leading-relaxed text-gray-800">
+                        <p>
+                          <span className="font-bold">WhatsApp Broadcast </span>{" "}
+                          is a messaging feature in WhatsApp messaging tool that
+                          allows you to send the{" "}
+                          <span className="font-bold">
+                            same message to multiple recipients individually at
+                            the same time.
+                          </span>
+                        </p>
 
-    <h2 className="text-3xl md:text-3xl font-bold text-emerald-700 mb-6">
-      What is WhatsApp Broadcast?
-    </h2>
+                        <p>Unlike WhatsApp groups:</p>
 
-    <div className="space-y-4 text-md leading-relaxed text-gray-800">
+                        <ul className="list-disc pl-6 space-y-1">
+                          <li>
+                            Recipients{" "}
+                            <span className="font-bold">
+                              cannot see each other
+                            </span>{" "}
+                          </li>
+                          <li>
+                            Each recipient receives the message{" "}
+                            <span className="font-bold">as a private chat</span>
+                          </li>
+                          <li>
+                            Replies come{" "}
+                            <span className="font-bold">
+                              directly to the sender
+                            </span>
+                          </li>
+                        </ul>
 
-      <p>
-        <span className="font-bold">WhatsApp Broadcast </span> is a messaging feature in WhatsApp messaging tool that allows you to send the  <span className="font-bold">same message to multiple recipients individually at the same time.</span> 
-      </p>
-
-      <p>
-        Unlike WhatsApp groups:
-      </p>
-
-      <ul className="list-disc pl-6 space-y-1">
-        <li>Recipients <span className="font-bold">cannot see each other</span> </li>
-        <li>Each recipient receives the message <span className="font-bold">as a private chat</span></li>
-        <li>Replies come <span className="font-bold">directly to the sender</span></li>
-      </ul>
-
-      <p>
-        This makes broadcast messaging a great tool for businesses that want to communicate with customers while maintaining privacy.
-      </p>
-
-    </div>
-
-  </div>
-</section>
+                        <p>
+                          This makes broadcast messaging a great tool for
+                          businesses that want to communicate with customers
+                          while maintaining privacy.
+                        </p>
+                      </div>
+                    </div>
+                  </section>
 
                   {/* WhatsApp Broadcast vs WhatsApp Group */}
-<section id="third">
-  <div className="max-w-4xl mx-auto mb-5">
+                  <section id="third">
+                    <div className="max-w-4xl mx-auto mb-5">
+                      <h2 className="text-3xl md:text-3xl font-bold text-emerald-700 mb-6">
+                        WhatsApp Broadcast vs WhatsApp Group
+                      </h2>
 
-    <h2 className="text-3xl md:text-3xl font-bold text-emerald-700 mb-6">
-      WhatsApp Broadcast vs WhatsApp Group
-    </h2>
+                      <div className="space-y-4 text-md leading-relaxed text-gray-800">
+                        <p>
+                          Many people are confused about the differences between
+                          broadcast lists and WhatsApp groups. Know the
+                          difference between WhatsApp broadcasts and WhatsApp
+                          groups:
+                        </p>
 
-    <div className="space-y-4 text-md leading-relaxed text-gray-800">
+                        {/* Table */}
+                        <div className="overflow-x-auto">
+                          <table className="w-full border border-gray-200 rounded-lg overflow-hidden">
+                            <thead className="bg-emerald-100 text-gray-900">
+                              <tr>
+                                <th className="text-left px-4 py-2 border">
+                                  Feature
+                                </th>
+                                <th className="text-left px-4 py-2 border">
+                                  WhatsApp Broadcast
+                                </th>
+                                <th className="text-left px-4 py-2 border">
+                                  WhatsApp Group
+                                </th>
+                              </tr>
+                            </thead>
+                            <tbody className="bg-white">
+                              <tr>
+                                <td className="px-4 py-2 border font-semibold">
+                                  Message Visibility
+                                </td>
+                                <td className="px-4 py-2 border">
+                                  Sent privately to each contact
+                                </td>
+                                <td className="px-4 py-2 border">
+                                  Visible to all members
+                                </td>
+                              </tr>
+                              <tr>
+                                <td className="px-4 py-2 border font-semibold">
+                                  Replies
+                                </td>
+                                <td className="px-4 py-2 border">
+                                  Come only to sender
+                                </td>
+                                <td className="px-4 py-2 border">
+                                  Visible to everyone
+                                </td>
+                              </tr>
+                              <tr>
+                                <td className="px-4 py-2 border font-semibold">
+                                  Privacy
+                                </td>
+                                <td className="px-4 py-2 border">
+                                  High privacy
+                                </td>
+                                <td className="px-4 py-2 border">
+                                  Low privacy
+                                </td>
+                              </tr>
+                              <tr>
+                                <td className="px-4 py-2 border font-semibold">
+                                  Best Use
+                                </td>
+                                <td className="px-4 py-2 border">
+                                  Promotions, updates, announcements
+                                </td>
+                                <td className="px-4 py-2 border">
+                                  Community discussions
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
 
-      <p>
-        Many people are confused about the differences between broadcast lists and WhatsApp groups. Know the difference between WhatsApp broadcasts and WhatsApp groups:
-      </p>
-
-      {/* Table */}
-      <div className="overflow-x-auto">
-        <table className="w-full border border-gray-200 rounded-lg overflow-hidden">
-          <thead className="bg-emerald-100 text-gray-900">
-            <tr>
-              <th className="text-left px-4 py-2 border">Feature</th>
-              <th className="text-left px-4 py-2 border">WhatsApp Broadcast</th>
-              <th className="text-left px-4 py-2 border">WhatsApp Group</th>
-            </tr>
-          </thead>
-          <tbody className="bg-white">
-            <tr>
-              <td className="px-4 py-2 border font-semibold">Message Visibility</td>
-              <td className="px-4 py-2 border">Sent privately to each contact</td>
-              <td className="px-4 py-2 border">Visible to all members</td>
-            </tr>
-            <tr>
-              <td className="px-4 py-2 border font-semibold">Replies</td>
-              <td className="px-4 py-2 border">Come only to sender</td>
-              <td className="px-4 py-2 border">Visible to everyone</td>
-            </tr>
-            <tr>
-              <td className="px-4 py-2 border font-semibold">Privacy</td>
-              <td className="px-4 py-2 border">High privacy</td>
-              <td className="px-4 py-2 border">Low privacy</td>
-            </tr>
-            <tr>
-              <td className="px-4 py-2 border font-semibold">Best Use</td>
-              <td className="px-4 py-2 border">Promotions, updates, announcements</td>
-              <td className="px-4 py-2 border">Community discussions</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <p>
-        For businesses, <span className="font-semibold">broadcast is better for marketing and announcements,</span> while groups are better for community conversations.
-      </p>
-
-    </div>
-
-  </div>
-</section>
+                        <p>
+                          For businesses,{" "}
+                          <span className="font-semibold">
+                            broadcast is better for marketing and announcements,
+                          </span>{" "}
+                          while groups are better for community conversations.
+                        </p>
+                      </div>
+                    </div>
+                  </section>
 
                   {/* Requirements to Send WhatsApp Broadcast Messages */}
-<section id="fourth">
-  <div className="max-w-4xl mx-auto mb-5">
+                  <section id="fourth">
+                    <div className="max-w-4xl mx-auto mb-5">
+                      <h2 className="text-3xl md:text-3xl font-bold text-emerald-700 mb-6">
+                        Requirements to Send WhatsApp Broadcast Messages
+                      </h2>
 
-    <h2 className="text-3xl md:text-3xl font-bold text-emerald-700 mb-6">
-      Requirements to Send WhatsApp Broadcast Messages
-    </h2>
+                      <div className="space-y-4 text-md leading-relaxed text-gray-800">
+                        <p>
+                          Before using broadcast messages, there are a few
+                          requirements:
+                        </p>
 
-    <div className="space-y-4 text-md leading-relaxed text-gray-800">
+                        <ol className="list-decimal pl-6 space-y-2">
+                          <li>
+                            The recipient must{" "}
+                            <span className="font-semibold">
+                              save your phone number in their contacts.
+                            </span>
+                          </li>
+                          <li>
+                            You must have{" "}
+                            <span className="font-semibold">
+                              WhatsApp or{" "}
+                              <Link
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                to="https://qmize.com/blog/whatsapp-business"
+                              >
+                                <span className="text-blue-500 hover:underline">
+                                  WhatsApp Business
+                                </span>
+                              </Link>
+                            </span>{" "}
+                            installed.
+                          </li>
+                          <li>
+                            Your broadcast list must contain{" "}
+                            <span className="font-semibold">
+                              valid contacts.
+                            </span>
+                          </li>
+                        </ol>
 
-      <p>
-        Before using broadcast messages, there are a few requirements:
-      </p>
+                        <p>
+                          If customers haven't saved your number, they will not
+                          receive your broadcast messages.
+                        </p>
 
-      <ol className="list-decimal pl-6 space-y-2">
-        <li>The recipient must save your phone number in their contacts.</li>
-        <li>You must have WhatsApp or WhatsApp Business installed.</li>
-        <li>Your broadcast list must contain valid contacts.</li>
-      </ol>
+                        <p>
+                          Businesses usually solve this by encouraging users to{" "}
+                          <span className="font-semibold">
+                            save their business number first.
+                          </span>
+                        </p>
 
-      <p>
-        If customers haven't saved your number, they will not receive your broadcast messages.
-      </p>
+                        <p>
+                          If you are still using personal WhatsApp for business
+                          communication, you can follow this guide to convert
+                          WhatsApp to business account:
+                        </p>
 
-      <p>
-        Businesses usually solve this by encouraging users to save their business number first.
-      </p>
+                        <p>
+                          👉{" "}
+                          <Link
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            to="https://qmize.com/blog/how-to-convert-whatsapp-to-business-account"
+                          >
+                            <span className="text-blue-500 font-semibold hover:underline">
+                              Convert your account
+                            </span>
+                          </Link>
+                        </p>
 
-      <p>
-        If you are still using personal WhatsApp for business communication, you can follow this guide to convert WhatsApp to business account:
-      </p>
-
-      <p>
-        👉{" "}
-        <Link
-          target="_blank"
-          rel="noopener noreferrer"
-          to="https://qmize.com/blog/how-to-convert-whatsapp-to-business-account"
-        >
-          <span className="text-blue-500 font-semibold">
-            Convert your account
-          </span>
-        </Link>
-      </p>
-
-      <p>
-        Using a WhatsApp Business account unlocks features like business profiles, quick replies, catalogs, and automated messages.
-      </p>
-
-    </div>
-
-  </div>
-</section>
+                        <p>
+                          Using a <span className="text-blue-500 font-semibold hover:underline">WhatsApp Business account</span>  unlocks features
+                          like business profiles, quick replies, catalogs, and
+                          automated messages.
+                        </p>
+                      </div>
+                    </div>
+                  </section>
 
                   {/* How to Create a WhatsApp Broadcast List */}
-<section id="fifth">
-  <div className="max-w-4xl mx-auto mb-5">
+                  <section id="fifth">
+                    <div className="max-w-4xl mx-auto mb-5">
+                      <h2 className="text-3xl md:text-3xl font-bold text-emerald-700 mb-6">
+                        How to Create a WhatsApp Broadcast List
+                      </h2>
 
-    <h2 className="text-3xl md:text-3xl font-bold text-emerald-700 mb-6">
-      How to Create a WhatsApp Broadcast List
-    </h2>
+                      <div className="space-y-4 text-md leading-relaxed text-gray-800">
+                        <p>
+                          Creating a broadcast list is simple and takes only a
+                          few steps to send a single message to multiple
+                          contacts at once.
+                        </p>
 
-    <div className="space-y-4 text-md leading-relaxed text-gray-800">
+                        <div>
+                          <h3 className="text-xl font-semibold text-gray-900 mb-1">
+                            Step 1: Open WhatsApp
+                          </h3>
+                          <p>
+                            Launch WhatsApp or   <Link
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              to="https://qmize.com/blog/whatsapp-business"
+                            >
+                              <span className="text-blue-500 hover:underline">
+                                WhatsApp Business
+                              </span>
+                            </Link> on your
+                            smartphone.
+                          </p>
+                        </div>
 
-      <p>
-        Creating a broadcast list is simple and takes only a few steps to send a single message to multiple contacts at once.
-      </p>
+                        <div>
+                          <h3 className="text-xl font-semibold text-gray-900 mb-1">
+                            Step 2: Open Broadcast Lists
+                          </h3>
+                          <p>
+                            Tap the <span className=" font-semibold ">three dots menu</span>  in the top-right corner and
+                            tap on broadcast list
+                          </p>
+                          <p>Click on (+) icon to create a <span className=" font-semibold ">New Broadcast</span>.</p>
+                        </div>
 
-      <div>
-        <h3 className="text-xl font-semibold text-gray-900 mb-1">
-          Step 1: Open WhatsApp
-        </h3>
-        <p>
-          Launch WhatsApp or WhatsApp Business on your smartphone.
-        </p>
-      </div>
+                        <div>
+                          <h3 className="text-xl font-semibold text-gray-900 mb-1">
+                            Step 3: <span className=" font-semibold ">Add Contacts</span>
+                          </h3>
+                          <p>
+                            Choose up to 256 contacts that you want to include
+                            in the broadcast list.
+                          </p>
+                        </div>
 
-      <div>
-        <h3 className="text-xl font-semibold text-gray-900 mb-1">
-          Step 2: Open Broadcast Lists
-        </h3>
-        <p>
-          Tap the three dots menu in the top-right corner and tap on broadcast list
-        </p>
-        <p>
-          Click on (+) icon to create a New Broadcast.
-        </p>
-      </div>
-
-      <div>
-        <h3 className="text-xl font-semibold text-gray-900 mb-1">
-          Step 3: Add Contacts
-        </h3>
-        <p>
-          Choose up to 256 contacts that you want to include in the broadcast list.
-        </p>
-      </div>
-
-      <div>
-        <h3 className="text-xl font-semibold text-gray-900 mb-1">
-          Step 4: Create the List
-        </h3>
-        <p>
-          Tap the checkmark to create your broadcast list.
-        </p>
-        <p>
-          Now you can send messages that will be delivered individually to each contact.
-        </p>
-      </div>
-
-    </div>
-
-  </div>
-</section>
+                        <div>
+                          <h3 className="text-xl font-semibold text-gray-900 mb-1">
+                            Step 4: Create the List
+                          </h3>
+                          <p>
+                            Tap the <span className=" font-semibold ">checkmark</span> to create your broadcast list.
+                          </p>
+                          <p>
+                            Now you can send messages that will be delivered
+                            individually to each contact.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
 
                   {/* WhatsApp Broadcast Limit */}
-<section id="sixth">
-  <div className="max-w-4xl mx-auto mb-5">
+                  <section id="sixth">
+                    <div className="max-w-4xl mx-auto mb-5">
+                      <h2 className="text-3xl md:text-3xl font-bold text-emerald-700 mb-6">
+                        WhatsApp Broadcast Limit
+                      </h2>
 
-    <h2 className="text-3xl md:text-3xl font-bold text-emerald-700 mb-6">
-      WhatsApp Broadcast Limit
-    </h2>
+                      <div className="space-y-4 text-md leading-relaxed text-gray-800">
+                        <p>
+                          WhatsApp has certain limits for broadcast messaging.
+                        </p>
 
-    <div className="space-y-4 text-md leading-relaxed text-gray-800">
+                        <p className="font-semibold">Key limits include:</p>
 
-      <p>
-        WhatsApp has certain limits for broadcast messaging.
-      </p>
+                        <ul className="list-disc pl-6 space-y-1">
+                          <li>Maximum <span className=" font-semibold ">256 contacts per broadcast list</span> </li>
+                          <li>
+                            Only contacts who <span className=" font-semibold ">saved your number</span> will receive
+                            messages
+                          </li>
+                          <li>
+                            Too many promotional messages may lead to <span className=" font-semibold ">account restrictions.</span>
+                            
+                          </li>
+                        </ul>
 
-      <p className="font-semibold">
-        Key limits include:
-      </p>
+                        <p>
+                          Because of these limits, many growing businesses
+                          choose   <Link
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              to="https://qmize.com/whatsapp-business-api"
+                            >
+                              <span className="text-blue-500 hover:underline">
+                                WhatsApp Business API
+                              </span>
+                            </Link> solutions to   <Link
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              to="https://qmize.com/blog/how-to-send-bulk-sms"
+                            >
+                              <span className="text-blue-500 hover:underline">
+                                send bulk
+                          WhatsApp messages
+                              </span>
+                            </Link> at scale.
+                        </p>
 
-      <ul className="list-disc pl-6 space-y-1">
-        <li>Maximum 256 contacts per broadcast list</li>
-        <li>Only contacts who saved your number will receive messages</li>
-        <li>Too many promotional messages may lead to account restrictions</li>
-      </ul>
+                        <p>
+                          Platforms like   <Link
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              to="https://qmize.com"
+                            >
+                              <span className="text-blue-500 hover:underline">
+                                Qmize
+                              </span>
+                            </Link> help businesses send automated
+                          campaigns, alerts, and customer support messages more
+                          efficiently.
+                        </p>
+                      </div>
+                    </div>
+                  </section>
 
-      <p>
-        Because of these limits, many growing businesses choose WhatsApp Business API solutions to send bulk WhatsApp messages at scale.
-      </p>
+                  {/* Benefits of WhatsApp Broadcast for Businesses */}
+                  <section id="seventh">
+                    <div className="max-w-4xl mx-auto mb-5">
+                      <h2 className="text-3xl md:text-3xl font-bold text-emerald-700 mb-6">
+                        Benefits of WhatsApp Broadcast for Businesses
+                      </h2>
 
-      <p>
-        Platforms like Qmize help businesses send automated campaigns, alerts, and customer support messages more efficiently.
-      </p>
+                      <div className="space-y-4 text-md leading-relaxed text-gray-800">
+                        <div>
+                          <h3 className="text-xl font-semibold text-gray-900 mb-1">
+                            1. Direct Customer Communication
+                          </h3>
+                          <p>
+                            Broadcast messages reach customers directly in their
+                            personal chat, making communication more effective.
+                          </p>
+                        </div>
 
-    </div>
+                        <div>
+                          <h3 className="text-xl font-semibold text-gray-900 mb-1">
+                            2. Higher Engagement Rates
+                          </h3>
+                          <p>
+                            WhatsApp messages have significantly <span className="font-semibold">higher open rates compared to email or SMS.</span>
+                           
+                          </p>
+                        </div>
 
-  </div>
-</section>
+                        <div>
+                          <h3 className="text-xl font-semibold text-gray-900 mb-1">
+                            3. Cost-Effective Marketing
+                          </h3>
+                          <p>
+                            Broadcast messaging allows businesses to promote
+                            offers and updates without expensive marketing
+                            tools.
+                          </p>
+                        </div>
 
-                 {/* Benefits of WhatsApp Broadcast for Businesses */}
-<section id="seventh">
-  <div className="max-w-4xl mx-auto mb-5">
+                        <div>
+                          <h3 className="text-xl font-semibold text-gray-900 mb-1">
+                            4. Personalized Messaging
+                          </h3>
+                          <p>
+                            Even though the same message is sent to many
+                            contacts, each user receives it as a <span className="font-semibold">private  message.</span>
+                           
+                          </p>
+                        </div>
 
-    <h2 className="text-3xl md:text-3xl font-bold text-emerald-700 mb-6">
-      Benefits of WhatsApp Broadcast for Businesses
-    </h2>
+                        <div>
+                          <h3 className="text-xl font-semibold text-gray-900 mb-1">
+                            5. Quick Announcements
+                          </h3>
+                          <p>
+                            Businesses can instantly notify customers about:
+                          </p>
 
-    <div className="space-y-4 text-md leading-relaxed text-gray-800">
-
-      <div>
-        <h3 className="text-xl font-semibold text-gray-900 mb-1">
-          1. Direct Customer Communication
-        </h3>
-        <p>
-          Broadcast messages reach customers directly in their personal chat, making communication more effective.
-        </p>
-      </div>
-
-      <div>
-        <h3 className="text-xl font-semibold text-gray-900 mb-1">
-          2. Higher Engagement Rates
-        </h3>
-        <p>
-          WhatsApp messages have significantly higher open rates compared to email or SMS.
-        </p>
-      </div>
-
-      <div>
-        <h3 className="text-xl font-semibold text-gray-900 mb-1">
-          3. Cost-Effective Marketing
-        </h3>
-        <p>
-          Broadcast messaging allows businesses to promote offers and updates without expensive marketing tools.
-        </p>
-      </div>
-
-      <div>
-        <h3 className="text-xl font-semibold text-gray-900 mb-1">
-          4. Personalized Messaging
-        </h3>
-        <p>
-          Even though the same message is sent to many contacts, each user receives it as a private message.
-        </p>
-      </div>
-
-      <div>
-        <h3 className="text-xl font-semibold text-gray-900 mb-1">
-          5. Quick Announcements
-        </h3>
-        <p>
-          Businesses can instantly notify customers about:
-        </p>
-
-        <ul className="list-disc pl-6 space-y-1">
-          <li>Flash sales</li>
-          <li>Product launches</li>
-          <li>Service updates</li>
-          <li>Appointment reminders</li>
-        </ul>
-      </div>
-
-    </div>
-
-  </div>
-</section>
+                          <ul className="list-disc pl-6 space-y-1">
+                            <li>Flash sales</li>
+                            <li>Product launches</li>
+                            <li>Service updates</li>
+                            <li>Appointment reminders</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
 
                   {/* Best Practices for WhatsApp Broadcast Marketing */}
-<section id="eighth">
-  <div className="max-w-4xl mx-auto mb-5">
+                  <section id="eighth">
+                    <div className="max-w-4xl mx-auto mb-5">
+                      <h2 className="text-3xl md:text-3xl font-bold text-emerald-700 mb-6">
+                        Best Practices for WhatsApp Broadcast Marketing
+                      </h2>
 
-    <h2 className="text-3xl md:text-3xl font-bold text-emerald-700 mb-6">
-      Best Practices for WhatsApp Broadcast Marketing
-    </h2>
+                      <div className="space-y-4 text-md leading-relaxed text-gray-800">
+                        <p>
+                          To get the best results from WhatsApp broadcasts,
+                          follow these best practices.
+                        </p>
 
-    <div className="space-y-4 text-md leading-relaxed text-gray-800">
+                        <div>
+                          <h3 className="text-xl font-semibold text-gray-900 mb-1">
+                            Get Customer Consent
+                          </h3>
+                          <p>
+                            Always send messages to customers who have <span className="font-semibold">opted in</span>
+                            to receive updates.
+                          </p>
+                        </div>
 
-      <p>
-        To get the best results from WhatsApp broadcasts, follow these best practices.
-      </p>
+                        <div>
+                          <h3 className="text-xl font-semibold text-gray-900 mb-1">
+                            Avoid Spam
+                          </h3>
+                          <p>
+                            Sending too many promotional messages can annoy
+                            users and may result in your number being blocked.
+                          </p>
+                        </div>
 
-      <div>
-        <h3 className="text-xl font-semibold text-gray-900 mb-1">
-          Get Customer Consent
-        </h3>
-        <p>
-          Always send messages to customers who have opted in to receive updates.
-        </p>
-      </div>
+                        <div>
+                          <h3 className="text-xl font-semibold text-gray-900 mb-1">
+                            Send Valuable Content
+                          </h3>
+                          <p>
+                            Instead of only promotions, share helpful
+                            information like:
+                          </p>
 
-      <div>
-        <h3 className="text-xl font-semibold text-gray-900 mb-1">
-          Avoid Spam
-        </h3>
-        <p>
-          Sending too many promotional messages can annoy users and may result in your number being blocked.
-        </p>
-      </div>
+                          <ul className="list-disc pl-6 space-y-1">
+                            <li>Tips</li>
+                            <li>Updates</li>
+                            <li>Exclusive offers</li>
+                            <li>New product announcements</li>
+                          </ul>
+                        </div>
 
-      <div>
-        <h3 className="text-xl font-semibold text-gray-900 mb-1">
-          Send Valuable Content
-        </h3>
-        <p>
-          Instead of only promotions, share helpful information like:
-        </p>
+                        <div>
+                          <h3 className="text-xl font-semibold text-gray-900 mb-1">
+                            Personalize Messages
+                          </h3>
+                          <p>
+                            Even simple personalization like using the
+                            customer's name can improve engagement.
+                          </p>
+                        </div>
 
-        <ul className="list-disc pl-6 space-y-1">
-          <li>Tips</li>
-          <li>Updates</li>
-          <li>Exclusive offers</li>
-          <li>New product announcements</li>
-        </ul>
-      </div>
+                        <div>
+                          <h3 className="text-xl font-semibold text-gray-900 mb-1">
+                            Maintain Consistent Branding
+                          </h3>
+                          <p>
+                            Use a professional <span className="font-semibold">WhatsApp Business profile</span> with
+                            your logo, business description, and contact
+                            information.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
 
-      <div>
-        <h3 className="text-xl font-semibold text-gray-900 mb-1">
-          Personalize Messages
-        </h3>
-        <p>
-          Even simple personalization like using the customer's name can improve engagement.
-        </p>
-      </div>
+                  {/* WhatsApp Broadcast Message Examples */}
+                  <section id="ninth">
+                    <div className="max-w-4xl mx-auto mb-5">
+                      <h2 className="text-3xl md:text-3xl font-bold text-emerald-700 mb-6">
+                        WhatsApp Broadcast Message Examples
+                      </h2>
 
-      <div>
-        <h3 className="text-xl font-semibold text-gray-900 mb-1">
-          Maintain Consistent Branding
-        </h3>
-        <p>
-          Use a professional WhatsApp Business profile with your logo, business description, and contact information.
-        </p>
-      </div>
+                      <div className="space-y-4 text-md leading-relaxed text-gray-800">
+                        <p>Here are some examples businesses can use.</p>
 
-    </div>
+                        <div>
+                          <h3 className="text-xl font-semibold text-gray-900 mb-1">
+                            Promotion Message
+                          </h3>
+                          <p className="bg-gray-100 p-3 rounded-md">
+                            "🎉 Special Offer! Get 20% off on all products this
+                            weekend. Visit our store now!"
+                          </p>
+                        </div>
 
-  </div>
-</section>
+                        <div>
+                          <h3 className="text-xl font-semibold text-gray-900 mb-1">
+                            Appointment Reminder
+                          </h3>
+                          <p className="bg-gray-100 p-3 rounded-md">
+                            "Hello! This is a reminder of your appointment
+                            tomorrow at 3 PM."
+                          </p>
+                        </div>
 
-                 {/* WhatsApp Broadcast Message Examples */}
-<section id="ninth">
-  <div className="max-w-4xl mx-auto mb-5">
+                        <div>
+                          <h3 className="text-xl font-semibold text-gray-900 mb-1">
+                            Product Launch
+                          </h3>
+                          <p className="bg-gray-100 p-3 rounded-md">
+                            "We are excited to introduce our new product
+                            collection. Check it out today!"
+                          </p>
+                        </div>
 
-    <h2 className="text-3xl md:text-3xl font-bold text-emerald-700 mb-6">
-      WhatsApp Broadcast Message Examples
-    </h2>
-
-    <div className="space-y-4 text-md leading-relaxed text-gray-800">
-
-      <p>
-        Here are some examples businesses can use.
-      </p>
-
-      <div>
-        <h3 className="text-xl font-semibold text-gray-900 mb-1">
-          Promotion Message
-        </h3>
-        <p className="bg-gray-100 p-3 rounded-md">
-          "🎉 Special Offer! Get 20% off on all products this weekend. Visit our store now!"
-        </p>
-      </div>
-
-      <div>
-        <h3 className="text-xl font-semibold text-gray-900 mb-1">
-          Appointment Reminder
-        </h3>
-        <p className="bg-gray-100 p-3 rounded-md">
-          "Hello! This is a reminder of your appointment tomorrow at 3 PM."
-        </p>
-      </div>
-
-      <div>
-        <h3 className="text-xl font-semibold text-gray-900 mb-1">
-          Product Launch
-        </h3>
-        <p className="bg-gray-100 p-3 rounded-md">
-          "We are excited to introduce our new product collection. Check it out today!"
-        </p>
-      </div>
-
-      <div>
-        <h3 className="text-xl font-semibold text-gray-900 mb-1">
-          Service Update
-        </h3>
-        <p className="bg-gray-100 p-3 rounded-md">
-          "Our support team is available from 9 AM to 6 PM. Feel free to reach out anytime."
-        </p>
-      </div>
-
-    </div>
-
-  </div>
-</section>
+                        <div>
+                          <h3 className="text-xl font-semibold text-gray-900 mb-1">
+                            Service Update
+                          </h3>
+                          <p className="bg-gray-100 p-3 rounded-md">
+                            "Our support team is available from 9 AM to 6 PM.
+                            Feel free to reach out anytime."
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
 
                   {/* WhatsApp Broadcast for Marketing Automation */}
-<section id="tenth">
-  <div className="max-w-4xl mx-auto mb-5">
+                  <section id="tenth">
+                    <div className="max-w-4xl mx-auto mb-5">
+                      <h2 className="text-3xl md:text-3xl font-bold text-emerald-700 mb-6">
+                        WhatsApp Broadcast for Marketing Automation
+                      </h2>
 
-    <h2 className="text-3xl md:text-3xl font-bold text-emerald-700 mb-6">
-      WhatsApp Broadcast for Marketing Automation
-    </h2>
+                      <div className="space-y-4 text-md leading-relaxed text-gray-800">
+                        <p>
+                          While manual broadcast lists work for small
+                          businesses, larger companies need automation.
+                        </p>
 
-    <div className="space-y-4 text-md leading-relaxed text-gray-800">
+                        <p>With platforms like   <Link
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              to="https://qmize.com"
+                            >
+                              <span className="text-blue-500 hover:underline">
+                                Qmize
+                              </span>
+                            </Link>, businesses can:</p>
 
-      <p>
-        While manual broadcast lists work for small businesses, larger companies need automation.
-      </p>
+                        <ul className="list-disc pl-6 space-y-1">
+                          <li>Send bulk WhatsApp campaigns</li>
+                          <li>Automate notifications</li>
+                          <li>Integrate WhatsApp with CRM systems</li>
+                          <li>Manage customer conversations at scale</li>
+                        </ul>
 
-      <p>
-        With platforms like Qmize, businesses can:
-      </p>
+                        <p>
+                          This helps businesses <span className="font-semibold">save time and improve customer</span>
+                          engagement.
+                        </p>
+                      </div>
+                    </div>
+                  </section>
 
-      <ul className="list-disc pl-6 space-y-1">
-        <li>Send bulk WhatsApp campaigns</li>
-        <li>Automate notifications</li>
-        <li>Integrate WhatsApp with CRM systems</li>
-        <li>Manage customer conversations at scale</li>
-      </ul>
+                  {/* Conclusion */}
+                  <section id="eleventh">
+                    <div className="max-w-4xl mx-auto mb-5">
+                      <h2 className="text-3xl md:text-3xl font-bold text-emerald-700 mb-6">
+                        Conclusion
+                      </h2>
 
-      <p>
-        This helps businesses save time and improve customer engagement.
-      </p>
+                      <div className="space-y-4 text-md leading-relaxed text-gray-800">
+                        <p>
+                          <span className="font-semibold">WhatsApp Broadcast</span> is a powerful communication tool
+                          that helps businesses send messages to multiple
+                          customers at once while maintaining private
+                          conversations.
+                        </p>
 
-    </div>
+                        <p>It is ideal for:</p>
 
-  </div>
-</section>
+                        <ul className="list-disc pl-6 space-y-1">
+                          <li>Promotions</li>
+                          <li>Announcements</li>
+                          <li>Customer updates</li>
+                          <li>Marketing campaigns</li>
+                        </ul>
 
-                 {/* Conclusion */}
-<section id="eleventh">
-  <div className="max-w-4xl mx-auto mb-5">
+                        <p>
+                          However, as businesses grow, managing broadcast lists
+                          manually can become difficult. This is where <span className="font-semibold">WhatsApp Business solutions like Qmize</span>
+                           help businesses automate
+                          messaging and scale communication efficiently.
+                        </p>
 
-    <h2 className="text-3xl md:text-3xl font-bold text-emerald-700 mb-6">
-      Conclusion
-    </h2>
+                        <p>
+                          If you are starting your business journey on WhatsApp,
+                          the first step is to switch to a professional   <Link
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              to="https://qmize.com/blog/whatsapp-business"
+                            >
+                              <span className="text-blue-500 hover:underline">
+                                WhatsApp business
+                              </span>
+                            </Link> account.
+                        </p>
 
-    <div className="space-y-4 text-md leading-relaxed text-gray-800">
+                        <p>You can follow this guide here:</p>
 
-      <p>
-        WhatsApp Broadcast is a powerful communication tool that helps businesses send messages to multiple customers at once while maintaining private conversations.
-      </p>
+                        <p>
+                          <Link
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            to="https://qmize.com/blog/how-to-convert-whatsapp-to-business-account"
+                          >
+                            <span className="text-blue-500 font-semibold">
+                              https://qmize.com/blog/how-to-convert-whatsapp-to-business-account
+                            </span>
+                          </Link>
+                        </p>
 
-      <p>
-        It is ideal for:
-      </p>
+                        <p>
+                          Using WhatsApp effectively can help businesses <span className="font-semibold">build stronger relationships, improve customer support, and
+                          increase sales.</span>
+                          
+                        </p>
+                      </div>
+                    </div>
+                  </section>
 
-      <ul className="list-disc pl-6 space-y-1">
-        <li>Promotions</li>
-        <li>Announcements</li>
-        <li>Customer updates</li>
-        <li>Marketing campaigns</li>
-      </ul>
+                  {/* FAQs About WhatsApp Broadcast */}
+                  <section id="twelfth">
+                    <div className="max-w-4xl mx-auto mb-5">
+                      <h2 className="text-3xl md:text-3xl font-bold text-emerald-700 mb-6">
+                        FAQs About WhatsApp Broadcast
+                      </h2>
 
-      <p>
-        However, as businesses grow, managing broadcast lists manually can become difficult. This is where WhatsApp Business solutions like Qmize help businesses automate messaging and scale communication efficiently.
-      </p>
+                      <div className="space-y-4 text-md leading-relaxed text-gray-800">
+                        <div>
+                          <h3 className="text-xl font-semibold text-gray-900 mb-1">
+                            1. What is WhatsApp Broadcast?
+                          </h3>
+                          <p>
+                            <span className="font-semibold">WhatsApp Broadcast</span> is a feature that allows users to
+                            send the same message to multiple contacts at once
+                            without creating a group. Each recipient receives
+                            the message as a private chat, and their replies
+                            come directly to the sender.
+                          </p>
+                        </div>
 
-      <p>
-        If you are starting your business journey on WhatsApp, the first step is to switch to a professional WhatsApp business account.
-      </p>
+                        <div>
+                          <h3 className="text-xl font-semibold text-gray-900 mb-1">
+                            2. How many contacts can be added to a WhatsApp
+                            Broadcast list?
+                          </h3>
+                          <p>
+                            A WhatsApp broadcast list can include <span className="font-semibold">up to 256</span>
+                            contacts at a time. However, recipients will only
+                            receive broadcast messages if they have saved the
+                            sender's phone number in their contacts.
+                          </p>
+                        </div>
 
-      <p>
-        You can follow this guide here:
-      </p>
+                        <div>
+                          <h3 className="text-xl font-semibold text-gray-900 mb-1">
+                            3. What is the difference between WhatsApp Broadcast
+                            and WhatsApp Group?
+                          </h3>
+                          <p>
+                            The main difference is privacy and communication
+                            flow. In a broadcast list, messages are delivered
+                            individually to each contact and replies are
+                            private. In a WhatsApp group, all members can see
+                            messages and replies from other participants.
+                          </p>
+                        </div>
 
-      <p>
-        <Link
-          target="_blank"
-          rel="noopener noreferrer"
-          to="https://qmize.com/blog/how-to-convert-whatsapp-to-business-account"
-        >
-          <span className="text-blue-500 font-semibold">
-            https://qmize.com/blog/how-to-convert-whatsapp-to-business-account
-          </span>
-        </Link>
-      </p>
+                        <div>
+                          <h3 className="text-xl font-semibold text-gray-900 mb-1">
+                            4. Can businesses use WhatsApp Broadcast for
+                            marketing?
+                          </h3>
+                          <p>
+                            Yes, businesses often use WhatsApp Broadcast to send
+                            promotions, product updates, announcements,
+                            reminders, and offers to customers. However,
+                            businesses should send messages only to users who
+                            have opted in to receive communications.
+                          </p>
+                        </div>
 
-      <p>
-        Using WhatsApp effectively can help businesses build stronger relationships, improve customer support, and increase sales.
-      </p>
+                        <div>
+                          <h3 className="text-xl font-semibold text-gray-900 mb-1">
+                            5. What are the limitations of WhatsApp Broadcast
+                            for businesses?
+                          </h3>
+                          <p>Some key limitations include:</p>
 
-    </div>
+                          <ul className="list-disc pl-6 space-y-1">
+                            <li>Maximum 256 contacts per broadcast list</li>
+                            <li>
+                              Messages are delivered only to contacts who saved
+                              your number
+                            </li>
+                            <li>
+                              Excessive promotional messaging may lead to
+                              account restrictions
+                            </li>
+                          </ul>
 
-  </div>
-</section>
-
-                 {/* FAQs About WhatsApp Broadcast */}
-<section id="twelfth">
-  <div className="max-w-4xl mx-auto mb-5">
-
-    <h2 className="text-3xl md:text-3xl font-bold text-emerald-700 mb-6">
-      FAQs About WhatsApp Broadcast
-    </h2>
-
-    <div className="space-y-4 text-md leading-relaxed text-gray-800">
-
-      <div>
-        <h3 className="text-xl font-semibold text-gray-900 mb-1">
-          1. What is WhatsApp Broadcast?
-        </h3>
-        <p>
-          WhatsApp Broadcast is a feature that allows users to send the same message to multiple contacts at once without creating a group. Each recipient receives the message as a private chat, and their replies come directly to the sender.
-        </p>
-      </div>
-
-      <div>
-        <h3 className="text-xl font-semibold text-gray-900 mb-1">
-          2. How many contacts can be added to a WhatsApp Broadcast list?
-        </h3>
-        <p>
-          A WhatsApp broadcast list can include up to 256 contacts at a time. However, recipients will only receive broadcast messages if they have saved the sender's phone number in their contacts.
-        </p>
-      </div>
-
-      <div>
-        <h3 className="text-xl font-semibold text-gray-900 mb-1">
-          3. What is the difference between WhatsApp Broadcast and WhatsApp Group?
-        </h3>
-        <p>
-          The main difference is privacy and communication flow. In a broadcast list, messages are delivered individually to each contact and replies are private. In a WhatsApp group, all members can see messages and replies from other participants.
-        </p>
-      </div>
-
-      <div>
-        <h3 className="text-xl font-semibold text-gray-900 mb-1">
-          4. Can businesses use WhatsApp Broadcast for marketing?
-        </h3>
-        <p>
-          Yes, businesses often use WhatsApp Broadcast to send promotions, product updates, announcements, reminders, and offers to customers. However, businesses should send messages only to users who have opted in to receive communications.
-        </p>
-      </div>
-
-      <div>
-        <h3 className="text-xl font-semibold text-gray-900 mb-1">
-          5. What are the limitations of WhatsApp Broadcast for businesses?
-        </h3>
-        <p>
-          Some key limitations include:
-        </p>
-
-        <ul className="list-disc pl-6 space-y-1">
-          <li>Maximum 256 contacts per broadcast list</li>
-          <li>Messages are delivered only to contacts who saved your number</li>
-          <li>Excessive promotional messaging may lead to account restrictions</li>
-        </ul>
-
-        <p>
-          For large-scale messaging and automation, businesses often use WhatsApp Business API solutions like Qmize.
-        </p>
-      </div>
-
-    </div>
-
-  </div>
-</section>
-
-                 
-                 
+                          <p>
+                            For large-scale messaging and automation, businesses
+                            often use WhatsApp Business API solutions like
+                            Qmize.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
                 </div>
               </section>
 
