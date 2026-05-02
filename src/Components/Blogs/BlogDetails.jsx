@@ -34,9 +34,16 @@ import whatsapp29 from "../../assets/Images/whatsapp_description_29.jpg";
 import whatsapp30 from "../../assets/Images/whatsapp-description-30.jpg";
 import whatsapp31 from "../../assets/Images/whatsapp_description_31.jpeg";
 import whatsapp32 from "../../assets/Images/whatsapp_description_32.jpeg";
-
+import whatsapp33 from "../../assets/Images/whatsapp33.jpeg";
 const BlogDetails = () => {
   const blogs = [
+    {
+     id: 33,
+      title: "Top 10 Customer Engagement Platforms in 2026 | Best Tools & Software",
+      date: "May 02, 2026",
+      image: whatsapp33,
+      link: "/blog/top-customer-engagement-platforms"    
+    },
     {
       id: 32,
       title: "WhatsApp Business Web Login Issues and Fixes | Complete Troubleshooting Guide",
